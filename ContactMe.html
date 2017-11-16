@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Contact Me</title>
+    <link rel="stylesheet" type="text/css" href="./CSS/ContactMe.css">
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker|Quicksand" rel="stylesheet">
+  </head>
+  <body style="padding:0px;">
+
+    <ul class="menu-area">
+      <li><h1 class="title">Nathan Hubner</h1></li>
+      <div style="float:right;">
+
+        <li><a href="./Index.html">Home</a></li>
+        <li><a href="./Index.html#about-me">About</a></li>
+        <li><a href="./Index.html#History">History</a></li>
+        <li><a href="./Index.html#Favorite">Favorite Videos</a></li>
+      </div>
+
+    </ul>
+
+      <div style="padding-top:15px;"class="container">
+        <form>
+          <fieldset class="personal-info">
+
+            <label for="fname">First Name</label>
+            <input type="text" name="firstname" placeholder="Your First Name Here..." required>
+
+            <label for="lname">Last Name</label>
+            <input type="text" name="lastname" placeholder="Your Last Name Here...">
+
+          </fieldset>
+
+          <fieldset class="personal-country">
+
+            <label for="country">Country</label>
+            <select class="country" name="country">
+              <option value="usa">USA</option>
+              <option value="egypt">Egypt</option>
+              <option value="norway">Norway</option>
+              <option value="canada">Canada</option>
+              <option value="mexico">Mexico</option>
+
+          </select>
+
+          </fieldset>
+
+          <fieldset class="personal-message">
+            <label for="subject">Subject</label>
+            <textarea name="subject" placeholder="Type your message here..." style="height:200px"></textarea>
+
+            <input class="submit-button"type="submit" value="Submit">
+
+          </fieldset>
+        </form>
+
+      </div>
+
+
+  </body>
+</html>

@@ -1,0 +1,138 @@
+
+.menu-area {
+  font-family: Permanent Marker;
+  background: #030303;
+  background: linear-gradient(to right bottom, #0B8989, #101111);
+}
+
+body {
+  margin: 0px;
+}
+
+
+ul {
+list-style-type: none;
+margin: 0;
+padding: 20;
+overflow: hidden;
+background-color: #333;
+}
+
+li {
+float: left;
+}
+
+li a {
+display: block;
+color: white;
+text-align: center;
+padding: 14px 16px;
+padding-top: 50px;
+text-decoration: none;
+}
+
+li a:hover {
+background-color: #111;
+}
+
+.title {
+  color:white;
+  display: inline-block;
+  padding-top: 5px;
+  padding-left: 10px;
+  float: left;
+  font-family: Permanent Marker;
+  font-weight: lighter;
+
+}
+
+input [type=text], select, textarea  {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px;
+  box-sizing: border-box;
+  border: 1px solid black;
+  border-radius: 4px;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input {
+  border: 1px solid black;
+  border-radius: 4px;
+}
+
+.submit-button {
+  background-color: #0B8989;
+    border: none;
+    color: white;
+    font-size: 14px;
+    border-radius: 8px;
+}
+
+.submit-button:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+fieldset {
+  border: 0;
+  margin: 0;
+  padding:0;
+
+}
+
+.personal-info {
+  padding: 20px 20px 20px 20px;
+}
+
+.personal-info label {
+  display:block;
+  weight: bold;
+  margin-bottom: 8px;
+  font-family: arial;
+}
+
+.personal-info input {
+  padding: 6px;
+  width: 35%;
+  margin-bottom: 14px;
+
+}
+
+.personal-country {
+  padding: 10px 20px 20px 20px;
+}
+
+.personal-country label {
+  display: block;
+  weight: bold;
+  margin-bottom: 8px;
+  font-family: arial;
+}
+
+.personal-country select {
+  padding: 6px;
+  width: 35%
+
+}
+
+.personal-message {
+  padding: 0px 20px 20px 20px;
+}
+
+.personal-message label {
+  display: block;
+  weight: bold;
+  margin-bottom: 8px;
+  font-family: arial;
+}
+
+.personal-message textarea {
+  padding: 6px;
+  width: 40%;
+}
+
+.personal-message input {
+  display: flex;
+}
